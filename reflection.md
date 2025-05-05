@@ -22,4 +22,7 @@ Examples:
 **Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
 
 `--- Reflection Below This Line ---`
-This assignment taught me how to parse packaging data and build a simple Streamlit app. I learned to process file input and manage session state. Parsing the data and keeping track of totals were a bit tricky, but overall it was a valuable learning experience.
+This assignment helped me understand how to modularize and apply Python code across different interfaces using Streamlit. I learned how to parse hierarchical packaging strings using custom functions (parse_packaging, calc_total_units, and get_unit), and how to persist and track state across sessions using st.session_state. One challenge I ran into was keeping accurate totals for the number of files and packages processed, especially when using st.session_state to update those counts correctly. Another area that required debugging was handling and parsing input lines consistently, especially when working with files vs. single string inputs. Going forward, I want to get more comfortable with managing file input/output in Streamlit and better structuring reusable functions. This project gave me more confidence in using Python for interactive applications and working with data flow between user input, processing, and output display.
+
+
+
